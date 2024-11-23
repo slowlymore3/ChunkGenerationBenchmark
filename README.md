@@ -1,5 +1,9 @@
 This test will download about 400MB of resources:
 (GraalVM, paper server software, mojang server software)
+
+A paper server will be run with chunky, which will generate
+a 1000 radius world around the spawn, totalling 16129 chunks.
+
 Upon completion files will take up around 1GB of disk space.
 
 Instructions:
@@ -11,11 +15,10 @@ Instructions:
 
 2. Run "RunTest.bat"
     - Deletes the "world" folder
-    - Runs autoconfig.vbs, setting paper-global.yml
+    - Runs /templates/autoconfig.vbs, setting paper-global.yml
     variables for IO / Worker threads
-    - Runs createstart.vbs, creating a start.bat file
-    which will allocate 90% of your free RAM to the
-    paper server
+    - Runs /templates/createstart.vbs, creating a start.bat file
+    which will allocate 90% of your free RAM to the server software
     - Begins the test
 
 3. Wait for the test to complete
@@ -44,7 +47,7 @@ but the server continued writing chunks to the drive
 before closing for around another 15 seconds.
 
 Below are some example times I've collected from
-both my computers (and phone, for fun) and those of volunteers.
+both my computers (and phone, for fun!) and those of volunteers.
 
 |Processor       |   Time      |
 |:---------------|-----------:|

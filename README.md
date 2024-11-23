@@ -46,10 +46,12 @@ before closing for around another 15 seconds.
 Below are some example times I've collected from
 both my computers (and phone, for fun) and those of volunteers.
 
-i9-12900k       |   49 seconds
-Ryzen 7 7800X3D |   59 seconds
-i7-14700f       |   65 seconds
-Ryzen 7 5800X   |   72 seconds
-Ryzen 9 3900X   |   74 seconds
-i7-4700mq       |   392 seconds
-Exynos 9810     |   700 seconds
+|Processor       |   Time      |
+|:---------------|-----------:|
+|i9-12900k       |   49 seconds|
+|Ryzen 7 7800X3D |   59 seconds|
+|i7-14700f       |   65 seconds|
+|Ryzen 7 5800X   |   72 seconds|
+|Ryzen 9 3900X   |   74 seconds|
+|i7-4700mq       |   392 seconds|
+|Exynos 9810     |   700 seconds|

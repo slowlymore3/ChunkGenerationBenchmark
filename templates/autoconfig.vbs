@@ -9,7 +9,7 @@ Next
 
 Set objFS = CreateObject("Scripting.FileSystemObject")
 scriptDir = CreateObject("Scripting.FileSystemObject").GetParentFolderName(WScript.ScriptFullName)
-strFile = scriptDir & "\templates\paper-global.template"
+strFile = scriptDir & ".\paper-global.template"
 Set objFile = objFS.OpenTextFile(strFile)
 Do Until objFile.AtEndOfStream
     strLine = objFile.ReadLine

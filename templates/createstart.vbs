@@ -7,7 +7,7 @@ For Each objOSItem In colOSItems
 Next
 Set objFS = CreateObject("Scripting.FileSystemObject")
 scriptDir = CreateObject("Scripting.FileSystemObject").GetParentFolderName(WScript.ScriptFullName)
-strFile = scriptDir & "\templates\start.template"
+strFile = scriptDir & ".\start.template"
 Set objFile = objFS.OpenTextFile(strFile)
 Do Until objFile.AtEndOfStream
     strLine = objFile.ReadLine

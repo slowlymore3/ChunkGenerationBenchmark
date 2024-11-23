@@ -7,6 +7,10 @@ a 1000 radius world around the spawn, totalling 16129 chunks.
 Upon completion files will take up around 1GB of disk space.
 
 Instructions:
+
+0. Download this software
+    - Either clone the git repo, or download a zip of the repo from the green "code" button in the top right.
+    
 1. Run "Setup.bat"
     - Downloads / Extracts GraalVM
     - Downloads Paper Minecraft server

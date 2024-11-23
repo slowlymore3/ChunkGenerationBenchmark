@@ -10,7 +10,8 @@ Instructions:
 
 0. Download this software
     - Either clone the git repo, or download a zip of the repo from the green "code" button in the top right.
-    
+    - If you downloaded the zip, make sure to extract the zip file into its own directory before proceeding.
+
 1. Run "Setup.bat"
     - Downloads / Extracts GraalVM
     - Downloads Paper Minecraft server

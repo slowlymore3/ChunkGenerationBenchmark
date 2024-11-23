@@ -1,0 +1,4 @@
+powershell -nologo -noprofile -command "Remove-Item -Recurse "$pwd\world""
+cscript /nologo .\templates\autoconfig.vbs > ./config/paper-global.yml
+cscript /nologo .\templates\createstart.vbs > ./templates/start.bat
+./templates/start.bat
